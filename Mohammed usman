@@ -1,0 +1,24 @@
+ hi this is the first project we are going to upload in our usmaan .
+we have done a basic python project for beginners with a help of if,else,elif statements
+print("1.ADDITION(+)")
+print("2.SUBRACTION(-)")
+print("3.MULTIPLICATION(*)")
+print("4.DIVISION(/)")
+operation = input("select the operators(+,-,*,/)")
+
+num1 = float (input("enter the first number"))
+num2 = float (input("enter the second number"))
+if operation == "+":
+    result = num1+num2
+    print(f"The value of {num1} + {num2} ={result}")
+elif operation == "-":
+    result = num1-num2
+    print(f"the value of {num1} - {num2} ={result}")
+elif operation == "*":
+    result = num1*num2
+    print(f"the value of {num1} * {num2} ={result}")
+elif operation == "/":
+    result = num1/num2
+    print(f"the value of {num1} / {num2 }={result}")
+else:
+    print("the given value is invalid")
